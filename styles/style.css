@@ -11,3 +11,58 @@
 
 	font-style: normal;
 }
+/* layout width */
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.content-area {
+	max-width: 1240px;
+	margin: 0 auto;
+	border: 1px solid palegreen;
+}
+/* header section  */
+.nav {
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-logo {
+	max-width: 80%;
+}
+.nav-search {
+	position: relative;
+}
+.search-input {
+	max-width: 100%;
+	padding: 15px 30px;
+	border-radius: 60px;
+	border: none;
+	font-size: 18px;
+	color: #cccccc;
+	background-color: #f1f1f1;
+}
+.searc-icon {
+	font-size: 20px;
+	color: #bababa;
+	/*  */
+	position: absolute;
+	top: 16px;
+	right: 22px;
+}
+.nav-list ul {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+}
+.nav-list ul li {
+	list-style: none;
+}
+.nav-list ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	color: #707070;
+}
